@@ -24,15 +24,13 @@
             // Pre-roll video.
             var fileUrl = 'https://vstatic.fastclick.net/static/archiver/video/f03/bfb/1bb/f03bfb1bb39d9f04761852cbe10a3447f2ebd52c1028d39eb85de7ca7586a3e2.mp4';
             // Vast tag call.
-            var tagUrl = 'https://ssapi.ad.cpe.dotomi.com/s2s/lite?sid=125684&partner_id=35001&bundle_id=com.conversant.test&limit_tracking=0&gdpr=0&partner_version=3.0.6&w=320&h=480&ad_type=videoe_type=gaid&ip=159.127.104.69&mimes=video/mp4'
-              +'&ua=' + ua
-              +'&rand=' + randomNum;
+            var tagUrl = 'https://direct.ad.cpe.dotomi.com/w/get.media?vpaid=2&m=11&sid=125684';
 
             jwplayer('player')
                 .setup({
                     primary: 'html5',
                     advertising: {
-                        client: 'googima',
+                        client: 'vast',
                         tag: tagUrl,
                         vpaidcontrols: true
                     },
