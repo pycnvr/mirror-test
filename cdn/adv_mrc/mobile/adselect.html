@@ -122,11 +122,45 @@ function generateQR() {
     }
 }
 </script>
+<script>
+    window.onload = function() {
+        var ua = window.navigator.userAgent,
+        anchorLocation = document.getElementById('install_anchor'),
+        iOSUri = "itms-services://?action=download-manifest&url=https://www.mojotest.com/~mcooper/beaker.plist",
+        androidUri = "https://www.mojotest.com/~mcooper/beaker.apk";
+
+        function addInstallAnchor(installUri, text){
+            var anchor = document.createElement('a');
+                anchor.innerHTML = text;
+                anchor.href = installUri;
+            anchorLocation.appendChild(anchor);
+        }
+        
+        if (/.*(iPad|iPod|iPhone).*/i.test(ua)){
+            let text = "Install Beaker for iOS";
+            addInstallAnchor(iOSUri, text);
+            return;
+        } else if (/.*(Android).*/i.test(ua)){
+            let text = "Install Beaker for Android";
+            addInstallAnchor(androidUri, text);
+            return;
+        } else {
+            addInstallAnchor("https://www.mojotest.com/~mcooper/Beaker.ipa", "Download Beaker for iOS");
+            var br = document.createElement("br");
+            anchorLocation.appendChild(br);
+            addInstallAnchor(androidUri, "Download Beaker for Android");
+
+        }
+    }
+</script>
+
+
 </head>
 
 <body>
     <div id='main'>
         <div>
+            <div id ='install_anchor'></div>
             <H3>Ad Select</H3>
             <select id="ad-select" name="ad-select">
                 <option value="Small Banner" selected>Small Banner - 320x50</option>
@@ -152,7 +186,7 @@ function generateQR() {
             </div>
             <div>
                 <H3>Unencoded User Agent</H3>
-                <textarea id="raw_user_agent" style='height: 120px; width:500px' placeholder="Ex: Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36"></textarea>
+                <textarea id="raw_user_agent" style='height: 120px; width:320px' placeholder="Ex: Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36"></textarea>
             <div>
                 <button style="margin-top: 20px" onclick="generateQR()">Generate QR</button>
             </div>
