@@ -93,6 +93,7 @@
         window.addEventListener("orientationchange", resize);
 
         function stageVideo() {
+            console.log(document.readyState);
             if (document.readyState === 'complete') {
                 playvideo()
             } else {
