@@ -3,11 +3,88 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Test Page - widesky Only</title>
+<<<<<<< HEAD:cdn/3_ns/160x600.html
     <link rel="stylesheet" type="text/css" href="../testMyAds.css" />
+=======
+    <link rel="stylesheet" type="text/css" href="http://testmyads.com/testmyads/testMyAds.css" />
+
+    <script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+    <script async src="./prebid.js"></script>
+
+    <script>
+        var PREBID_TIMEOUT = 10000;
+        var FAILSAFE_TIMEOUT = 10000;
+
+        var adUnits = [{
+            code: "container-0",
+            mediaTypes: { banner: { sizes: [ [160, 600] ] } },
+            bids: [
+                { bidder: "openx", params: { unit: "540096529", delDomain: "sademo-d.openx.net" } },
+                { bidder: "appnexus", params: { placementId: 13144370 } },
+                { bidder: "conversant", params: { site_id: '108060' } }
+            ]
+        }];
+
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        googletag.cmd.push(function() {
+            googletag.pubads().disableInitialLoad();
+        });
+
+        var pbjs = pbjs || {};
+        pbjs.que = pbjs.que || [];
+
+        pbjs.bidderSettings = {
+            conversant: {
+                bidCpmAdjustment : function(bidCpm) {
+                    return bidCpm * 100;
+                }
+            }
+        };
+
+        pbjs.que.push(function() {
+            pbjs.addAdUnits(adUnits);
+
+            pbjs.que.push(function(){
+                pbjs.enableAnalytics(
+                    {
+                        provider: 'conversant',
+                        options: {site_id: 108060}}
+                );
+            });
+            pbjs.requestBids({
+                bidsBackHandler: initAdserver,
+                timeout: PREBID_TIMEOUT
+            });
+        });
+
+        function initAdserver() {
+            if (pbjs.initAdserverSet) return;
+            pbjs.initAdserverSet = true;
+            googletag.cmd.push(function() {
+                pbjs.que.push(function() {
+                    pbjs.setTargetingForGPTAsync();
+                    googletag.pubads().refresh();
+                });
+            });
+        }
+        // in case PBJS doesn't load
+        setTimeout(function() {
+            initAdserver();
+        }, FAILSAFE_TIMEOUT);
+
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/9119480/testmyads_hb_0',  [[160, 600]], 'container-0').addService(googletag.pubads());
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+>>>>>>> bd405d7e328a37de7310fa5978bf94c4d5b47955:cdn/prebid/160x600.html
 </head>
 
 <body><script src="https://cdn.conversant.mgr.consensu.org/gdpr/cmp/config/c/o/conversantmedia.eu/config.js"></script><script src="https://cdn.conversant.mgr.consensu.org/gdpr/cmp/gdpr-cmp-bootstrap.js"></script>
-    <a href="http://www.conversantmedia.com"><img src="../images/vc_logo.gif"
+    <a href="http://www.conversantmedia.com"><img src="http://testmyads.com/testmyads/images/vc_logo.gif"
     alt="" height="72" border="0"></a>
     <br />
     <!--<img src="images/fakeheader.gif" width="730" height="125" />-->
@@ -18,7 +95,7 @@
                     <tr>
                         <td colspan="3">
                             <!-- ValueClick Media 468x60 and 728x90 Banner CODE for ashleylennonthomas.com -->
-                            <img src="../images/728x90_place.jpg" width="728" height="90" />
+                            <img src="http://testmyads.com/testmyads/images/728x90_place.jpg" width="728" height="90" />
                             <!-- ValueClick Media 468x60 and 728x90 Banner CODE for ashleylennonthomas.com -->
                         </td>
                     </tr>
@@ -37,6 +114,7 @@
                             <div class="lelft"><b>Search:</b></div>
                             <input type="text" name="Search" />
                             <div id="nudge">
+<<<<<<< HEAD:cdn/3_ns/160x600.html
                                 <!-- Conversant Media 160x600 WIDE SKYSCRAPER CODE for testMyads_1 -->
                                 <script type="text/javascript">
                                 var vclk_options = { sid: 97975, media_type: 7, version: "1.4" };
@@ -44,6 +122,15 @@
                                 <script class="vclk_pub_code" type="text/javascript" src="http://cdn.fastclick.net/js/adcodes/pubcode.min.js?sid=97975&media_type=7&version=1.4&exc=1"></script>
                             
                                 <!-- Conversant Media 160x600 WIDE SKYSCRAPER CODE for testMyads_1 -->>
+=======
+                                <div id='container-0'>
+                                    <script type='text/javascript'>
+                                        googletag.cmd.push(function() {
+                                            googletag.display('container-0');
+                                        });
+                                    </script>
+                                </div>
+>>>>>>> bd405d7e328a37de7310fa5978bf94c4d5b47955:cdn/prebid/160x600.html
                             </div>
                         </td>
                         <td style="width:413px;vertical-align:top;">
@@ -52,7 +139,7 @@
                             </p>
                             <center>
                                 <!-- ValueClick Media 300x250 Medium Rectangle CODE for ashleylennonthomas.comvc -->
-                                <img src="../images/300x250_place.jpg" width="300" height="250" />
+                                <img src="http://testmyads.com/testmyads/images/300x250_place.jpg" width="300" height="250" />
                                 <!-- ValueClick Media 300x250 Medium Rectangle CODE for ashleylennonthomas.comvc -->
                             </center>
                             <p>
@@ -61,7 +148,7 @@
                         </td>
                         <td style="background-color: #BEE3F3; width:130px; vertical-align:top; text-align: center;">
                             <!-- ValueClick Media 120x600 SkyScraper CODE v1.0c for ashleylennonthomas.comvc -->
-                            <img src="../images/120x600_place.jpg" width="120" height="600" />
+                            <img src="http://testmyads.com/testmyads/images/120x600_place.jpg" width="120" height="600" />
                             <!-- ValueClick Media 120x600 SkyScraper CODE v1.0c for ashleylennonthomas.comvc -->
                             <div class="under lelft">
                                 In tellus dui
@@ -79,12 +166,10 @@
                     <tr>
                         <td colspan="3" style="background-color: #BEE3F3;">
                             <div class="floatright">
-                                <!-- ValueClick Media 468x60 Banner CODE v1.0c for ashleylennonthomas.comvc -->
                                 <img src="../images/468x60_place.jpg" width="468" height="60" />
-                                <!-- ValueClick Media 468x60 Banner CODE v1.0c for ashleylennonthomas.comvc -->
                             </div>
                             <b>Quote of the Day:</b>
-                            <br /> He who questions training, only trains himself in asking questions. s: 97975
+                            <br /> He who questions training, only trains himself in asking questions. s:119041
                         </td>
                     </tr>
                 </table>
