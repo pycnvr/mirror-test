@@ -222,7 +222,7 @@ a.mainlink {
     }
 
 .innernav .mainlink {
-	background-image:url("../../../img/skins/kargo/pointer_next.png");
+	background-image:url("/img/skins/kargo/pointer_next.png");
 	background-repeat:no-repeat;
 	background-position:100% 50%;
 	background-color:#FFF;
@@ -272,7 +272,7 @@ a.mainlink {
 .item > li > a.next {
     padding:8px 20px 8px 7px;
     text-align:right;
-    background:transparent url("../../../img/skins/kargo/pointer_more.png") 100% 45% no-repeat;
+    background:transparent url("/img/skins/kargo/pointer_more.png") 100% 45% no-repeat;
     background-size:23px 18px;
     }
 
@@ -311,7 +311,7 @@ a.mainlink {
 
 .nav a > p {
 	background-color: #f5f5f5;
-	background-image: url("../../../img/skins/kargo/pointer_next.png");
+	background-image: url("/img/skins/kargo/pointer_next.png");
 	background-repeat: no-repeat;
 	background-position: 98% 50%;
 	background-size:13px 19px;
@@ -328,7 +328,7 @@ a.mainlink {
     background:#ee4e11;
 	color:#FFF;
 	text-shadow:none;
-	background-image: url("../../../img/skins/kargo/pointer_wh.png");
+	background-image: url("/img/skins/kargo/pointer_wh.png");
 	background-size:13px 19px;
 	background-repeat: no-repeat;
 	background-position: 98% 50%;
@@ -348,7 +348,7 @@ a.mainlink {
 .nav li:first-child a p {
 	background-color: #000;
 	color: #FFF;
-	background-image: url("../../../img/skins/kargo/pointer_or.png");
+	background-image: url("/img/skins/kargo/pointer_or.png");
 	background-size:13px 19px;
 	background-repeat: no-repeat;
 	background-position: 98% 50%;
@@ -379,7 +379,7 @@ a.mainlink {
 .post > li > a.prev {
     padding:13px 7px 13px 24px;
     text-align:left;
-    background:transparent url("../../../img/skins/kargo/pointer_prev.png") 3% 50% no-repeat;
+    background:transparent url("/img/skins/kargo/pointer_prev.png") 3% 50% no-repeat;
     background-size:13px 18px;
     font-weight:bold;
     text-transform:uppercase;
@@ -387,7 +387,7 @@ a.mainlink {
 .post > li > a.next {
     padding:13px 24px 13px 7px;
     text-align:right;
-	background:transparent url("../../../img/skins/kargo/pointer_next.png") 97% 50% no-repeat;
+	background:transparent url("/img/skins/kargo/pointer_next.png") 97% 50% no-repeat;
     background-size:13px 18px;
     font-weight:bold;
     text-transform:uppercase;
@@ -400,7 +400,7 @@ a.mainlink {
     border-top: #e5e5e5 solid 1px;
     }
 .search input[type="submit"] {
-	background:url("../../../img/skins/kargo/btn_search.png") no-repeat scroll 100% 50% transparent;
+	background:url("/img/skins/kargo/btn_search.png") no-repeat scroll 100% 50% transparent;
 	background-size:26px 26px;
 	border:medium none;
 	cursor:pointer;
@@ -522,11 +522,11 @@ body.template-cbs .portal_home img { width: 50px; opacity: 1.0; text-align:cente
 
 body.template-cbs_news .logo img { margin:0px auto 0px auto; padding-top:7px; padding-bottom:8px; width:200px; }
 body.template-cbs_news .logo {
-    background-image: url(../../../img/skins/cbs/icon_menu_cbsnews_solid.png),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #424b55), color-stop(100%, #0a0c0e));
-    background-image: url(../../../img/skins/cbs/icon_menu_cbsnews_solid.png),-webkit-linear-gradient(#424b55,#0a0c0e);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbsnews_solid.png),-moz-linear-gradient(#424b55,#0a0c0e);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbsnews_solid.png),-o-linear-gradient(#424b55,#0a0c0e);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbsnews_solid.png),linear-gradient(#424b55,#0a0c0e);
+    background-image: url(/img/skins/cbs/icon_menu_cbsnews_solid.png),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #424b55), color-stop(100%, #0a0c0e));
+    background-image: url(/img/skins/cbs/icon_menu_cbsnews_solid.png),-webkit-linear-gradient(#424b55,#0a0c0e);
+    background-image: url(/img/skins/cbs/icon_menu_cbsnews_solid.png),-moz-linear-gradient(#424b55,#0a0c0e);
+    background-image: url(/img/skins/cbs/icon_menu_cbsnews_solid.png),-o-linear-gradient(#424b55,#0a0c0e);
+    background-image: url(/img/skins/cbs/icon_menu_cbsnews_solid.png),linear-gradient(#424b55,#0a0c0e);
     background-size: 50px 35px, 100% 100%;
     background-repeat: no-repeat, repeat;
     background-position: 10px 9px, 0 0;
@@ -549,11 +549,11 @@ body.template-cbs_news .portal_home img { width: 50px; opacity: 1.0; text-align:
 body.template-refinery_29 .header-logo img { width: 180px; padding-top: 5px; }
 body.template-cbs_sports .logo img { margin:0px auto 0px auto; padding-top:0px; padding-bottom:0px; width:150px; }
 body.template-cbs_sports .logo {
-    background-image: url(../../../img/skins/cbs/icon_menu_cbssports_solid.png), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004A8E), color-stop(100%, #004A8E));
-    background-image: url(../../../img/skins/cbs/icon_menu_cbssports_solid.png), -webkit-linear-gradient(#004A8E,#004A8E);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbssports_solid.png), -moz-linear-gradient(#004A8E,#004A8E);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbssports_solid.png), -o-linear-gradient(#004A8E,#004A8E);
-    background-image: url(../../../img/skins/cbs/icon_menu_cbssports_solid.png), linear-gradient(#004A8E,#004A8E);
+    background-image: url(/img/skins/cbs/icon_menu_cbssports_solid.png), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004A8E), color-stop(100%, #004A8E));
+    background-image: url(/img/skins/cbs/icon_menu_cbssports_solid.png), -webkit-linear-gradient(#004A8E,#004A8E);
+    background-image: url(/img/skins/cbs/icon_menu_cbssports_solid.png), -moz-linear-gradient(#004A8E,#004A8E);
+    background-image: url(/img/skins/cbs/icon_menu_cbssports_solid.png), -o-linear-gradient(#004A8E,#004A8E);
+    background-image: url(/img/skins/cbs/icon_menu_cbssports_solid.png), linear-gradient(#004A8E,#004A8E);
     background-size: 51px 43px, 100% 100%;
     background-repeat: no-repeat, repeat;
     color:#f5f5f5;
