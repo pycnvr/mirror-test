@@ -1,0 +1,81 @@
+{
+    "id": "6565212",
+    "bidid": "71228284-a101-48fd-bdea-de3547b83181",
+    "cur": "USD",
+    "seatbid": [
+      {
+        "bid": [
+          {
+            "id": "978105889538000095",
+            "impid": "9713416",
+            "price": 0.01,
+            "cid": "81313",
+            "crid": "40009354_4",
+            "adm_native": {
+              "assets": [
+                {
+                  "id": 1,
+                  "required": 0,
+                  "data": {
+                    "value": "4"
+                  }
+                }
+              ],
+              "eventtrackers": [
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://trackingurl1"
+                },
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://trackingurl2"
+                },
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://event.ad.cpe.dotomi.com/cvx/event/imp?enc=eyJ1c2VyaWQiOiI3MDEyMDUzMjgwNTEyMDQzMTAiLCJwYXJ0bmVyVHhpZCI6Ijk3ODEwNTg4OTUzODAwMDA5NSIsInR4aWQiOiI5OTk5OTIwMjcxOTczNTEwMDIiLCJuZXR3b3JrUmVxdWVzdElkIjoiOTk5OTkyMDI3MTk3MzUxMzYzIiwic2lkIjoyMDEwMjksImRpdmlzaW9uSWQiOjEsInRpZCI6MzEsIm1vYmlsZURhdGEiOiI1OSIsImJpZFByaWNlIjowLjAxMDAsInB1YkNvc3QiOjAuMDEwMCwicGFydG5lckZlZSI6MC4wMDAwLCJpcFN0cmluZyI6IjE3My4xOC4yNTMuMTk3Iiwic3VwcGx5VHlwZSI6NCwiaW50ZWdyYXRpb25UeXBlIjowLCJtZWRpYXRpb25UeXBlIjoxMjYsInBsYWNlbWVudElkIjoiMTAxMTMxMTEiLCJoZWFkZXJCaWQiOjAsImlzRGlyZWN0UHVibGlzaGVyIjoxLCJoYXNDb25zZW50IjoxLCJvcGVyYXRpb24iOiJDT05URVhUVUFMX1NQT05TT1JFRCIsImlzQ29yZVNoaWVsZCI6MCwicGFydG5lckNhbXBhaWduSWQiOiI4MTMxMyIsInBhcnRuZXJDcmVhdGl2ZUlkIjoiNDAwMDkzNTRfNCIsInNlbGxlclJlcXVlc3RJZCI6IjY1NjUyMTIiLCJzZWxsZXJJbXBJZCI6Ijk3MTM0MTYiLCJkYXRlQ3JlYXRlZCI6MTYxNDgxNjI3MjMzNn0&__EXTRA__=__MACROS__"
+                }
+              ]
+            }
+          },
+          {
+            "id": "978105889538000094",
+            "impid": "2686374",
+            "price": 0.01,
+            "cid": "81313",
+            "crid": "40009354_2",
+            "adm_native": {
+              "assets": [
+                {
+                  "id": 1,
+                  "required": 0,
+                  "data": {
+                    "value": "2"
+                  }
+                }
+              ],
+              "eventtrackers": [
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://trackingurl1"
+                },
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://trackingurl2"
+                },
+                {
+                  "event": 1,
+                  "method": 1,
+                  "url": "http://event.ad.cpe.dotomi.com/cvx/event/imp?enc=eyJ1c2VyaWQiOiI3MDEyMDUzMjgwNTEyMDQzMTAiLCJwYXJ0bmVyVHhpZCI6Ijk3ODEwNTg4OTUzODAwMDA5NCIsInR4aWQiOiI5OTk5OTIwMjcxOTczNTEwMDEiLCJuZXR3b3JrUmVxdWVzdElkIjoiOTk5OTkyMDI3MTk3MzUxMzYzIiwic2lkIjoyMDEwMjksImRpdmlzaW9uSWQiOjEsInRpZCI6MzEsIm1vYmlsZURhdGEiOiI1OSIsImJpZFByaWNlIjowLjAxMDAsInB1YkNvc3QiOjAuMDEwMCwicGFydG5lckZlZSI6MC4wMDAwLCJpcFN0cmluZyI6IjE3My4xOC4yNTMuMTk3Iiwic3VwcGx5VHlwZSI6NCwiaW50ZWdyYXRpb25UeXBlIjowLCJtZWRpYXRpb25UeXBlIjoxMjYsInBsYWNlbWVudElkIjoiMTAxMTMxMTEiLCJoZWFkZXJCaWQiOjAsImlzRGlyZWN0UHVibGlzaGVyIjoxLCJoYXNDb25zZW50IjoxLCJvcGVyYXRpb24iOiJDT05URVhUVUFMX1NQT05TT1JFRCIsImlzQ29yZVNoaWVsZCI6MCwicGFydG5lckNhbXBhaWduSWQiOiI4MTMxMyIsInBhcnRuZXJDcmVhdGl2ZUlkIjoiNDAwMDkzNTRfMiIsInNlbGxlclJlcXVlc3RJZCI6IjY1NjUyMTIiLCJzZWxsZXJJbXBJZCI6IjI2ODYzNzQiLCJkYXRlQ3JlYXRlZCI6MTYxNDgxNjI3MjMzNn0&__EXTRA__=__MACROS__"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
