@@ -1,0 +1,56 @@
+[{
+    "id": 1,
+    "name": "Men's White Polo Shirt",
+    "description": "",
+    "price": 7.60,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+}, {
+    "id": 2,
+    "name": "Boom Bluetooth Earbuds",
+    "description": "",
+    "price": 7.75,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+},{
+    "id": 3,
+    "name": "Laptop Bag",
+    "description": "",
+    "price": 24.75,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+}, {
+    "id": 4,
+    "name": "Baseball Cap",
+    "description": "",
+    "price": 6.75,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+}, {
+    "id": 5,
+    "name": "Epsilon Unisex Polo Shirt",
+    "description": "",
+    "price": 9.03,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+},{
+    "id": 6,
+    "name": "Tucson Mid Size Ivory Journal",
+    "description": "",
+    "price": 6.50,
+    "images": [""],
+    "categories": [""],
+    "size": "",
+    "rating": ""
+}
+]
